@@ -1,0 +1,67 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(85, 113, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    overflow: hidden;
+}
+
+header {
+    margin: 120px 0px;
+    /* border: solid red 2px; */
+    color: white;
+    font-size: 35px;
+    text-align: center;;
+}
+
+header > h1 {
+    width: 450px;
+    margin: 0px auto;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > h1 > span {
+    font-size: 120px;
+    color: rgb(197, 42, 42);
+}
+
+main > form {
+    color: white;
+    background-color: hsl(268, 83%, 23%);
+    padding: 0%;
+    margin: 0px auto;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.player-names {
+    font-size: 21px;
+    color: black;
+    background-color: white;
+    padding: 5px; 
+
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
