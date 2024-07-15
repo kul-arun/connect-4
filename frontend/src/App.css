@@ -1,0 +1,50 @@
+:root {
+  --color-red: #fc0000;
+  --color-yellow: #ffff00;
+  --color-green: hsl(120, 100%, 50%);
+  --color-blue: #0000cd;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: SourceSans;
+  src: url(../fonts/SourceSans3-VariableFont_wght.ttf);
+}
+
+@layer base {
+  * {
+    box-sizing: content-box;
+  }
+
+  body {
+    @apply m-0 bg-gradient-to-r from-pink-700 via-purple-700 to-teal-700 p-0;
+    font-family: Roboto;
+  }
+
+  th,
+  td {
+    @apply p-3;
+  }
+
+  tbody tr:nth-child(odd) {
+    @apply bg-slate-900;
+  }
+
+  tbody tr:nth-child(even) {
+    @apply bg-slate-950;
+  }
+}
+
+@layer components {
+  .start-menu-item:hover {
+    @apply cursor-pointer font-bold text-myYellow;
+  }
+}
