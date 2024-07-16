@@ -1,3 +1,6 @@
+# database data
+postgres_data
+
 # backend
 backend/.idea
 backend/HELP.md
