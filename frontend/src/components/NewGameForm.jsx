@@ -91,7 +91,10 @@ const NewGameForm = () => {
         <header className="my-10 rounded-xl bg-slate-950 px-4 py-2 text-center text-4xl text-white">
           Game Information
         </header>
-        <form className="flex min-w-fit flex-col items-center rounded-xl border-4 border-amber-500 bg-purple-900 px-5 py-8 text-center">
+        <form
+          autoComplete="off"
+          className="flex min-w-fit flex-col items-center rounded-xl border-4 border-amber-500 bg-purple-900 px-5 py-8 text-center"
+        >
           <PlayerName id={1} name={player1Name} onChange={handleNameChange} />
           <PlayerName id={2} name={player2Name} onChange={handleNameChange} />
           <p className="text-myYellow">{errors.namesErrorMsg}</p>
