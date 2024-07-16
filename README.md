@@ -2,6 +2,8 @@
 
 This repository contains an implementation of the classic [Connect 4](https://en.wikipedia.org/wiki/Connect_Four) game as a full-stack web application. It uses ReactJS for the frontend and Spring Boot for the backend. PostgreSQL is used as the database. The entire game application has been containerized using Docker with Docker Compose.
 
+![app-demo.gif](app-demo.gif)
+
 ## Requirements
 
 * **Docker**
