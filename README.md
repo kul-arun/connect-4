@@ -16,7 +16,7 @@ The instructions to install Docker is provided [here](https://docs.docker.com/ge
 
 Docker Compose is a tool for defining and running multi-container applications.
 
-The instructions to install Docker is provided [here](https://docs.docker.com/compose/install/).
+The instructions to install Docker Compose is provided [here](https://docs.docker.com/compose/install/).
 
 ## Instructions
 
